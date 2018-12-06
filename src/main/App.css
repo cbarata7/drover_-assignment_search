@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'GT-Walsheim-Pro-Regular';
+  font-weight: 400;
+  src: url('../fonts/GT-Walsheim-Pro-Regular.otf')
+}
+
+@font-face {
+  font-family: 'GT-Walsheim-Pro-Medium';
+  font-weight: 400;
+  src: url('../fonts/GT-Walsheim-Pro-Medium.otf')
+}
+
+@font-face {
+  font-family: 'GT-Walsheim-Pro-Bold';
+  font-weight: 400;
+  src: url('../fonts/GT-Walsheim-Pro-Bold.otf')
+}
+
+body {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: GT-Walsheim-Pro-Regular, Arial, sans-serif;
+  letter-spacing: 0px;
+}
+
+h2 {
+  font-family: GT-Walsheim-Pro-Medium;
+  letter-spacing: -0.2px;
+}
+
+@media (min-width: 768px){
+  h2 {
+    font-size: 35px;
+  }
+}
+
+.icon-area {
+  width: 140px;
+}
+
+.side-bar-labels {
+  font-family: GT-Walsheim-Pro-Medium;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.side-bar-option {
+  padding-bottom: 16px;
+}
+
+.subscription-label {
+  font-family: GT-Walsheim-Pro-Regular, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.font-weight-medium {
+  font-family: GT-Walsheim-Pro-Medium;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.gridCols {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.side-bar {
+  margin-top: 20px;
+}
+
+.carImage {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 85%;
+  min-height: 250px;
+  padding: 16px;
+  background-color: rgb(245, 245, 245);
+  margin: 4px;
+}
+
+.carInfo {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.titleDiv {
+  width: 66%;
+}
+
+.price-label {
+  margin-right: 35px;
+}
+
+.w-100 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title {
+  font-size: 18px;
+  padding: 0 0;
+  margin: 0;
+}
+
+p{
+  font-size: 12px;
+  margin: 0 0;
+}
+
+.price {
+  font-size: 22px;
+  margin: 0 0;
+}
+
+.radioGroupToggleSearchType {
+  width: 100%
+}
+
+.buttonToggleSearchType{
+  width: 50%
+}
+
+.d-flex {
+  display: -webkit-box!important;
+  display: -webkit-flex!important;
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+
+.align-items-center {
+  -webkit-box-align: center!important;
+  -webkit-align-items: center!important;
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+
+.header-division-line {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(239, 239, 239);
+}
+
+.header-title{
+  height: 60px;
+  width: 100%;
+}
+
+.no-padding: {
+  padding: 0;
+}
+
+.subscription-area {
+  background: rgb(245, 245, 245);
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}

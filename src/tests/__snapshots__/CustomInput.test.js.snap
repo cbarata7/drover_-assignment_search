@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomInput should render banner text correctly with given props 1`] = `
+<div
+  className="side-bar-option"
+>
+  <div
+    className="row side-bar-labels"
+  >
+    test
+  </div>
+  <div
+    className="row"
+  >
+    <FormControl
+      bsClass="form-control"
+      componentClass="input"
+      defaultValue="test label"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`CustomInput should render correctly in debug mode 1`] = `
+<div
+  className="side-bar-option"
+>
+  <div
+    className="row side-bar-labels"
+  />
+  <div
+    className="row"
+  >
+    <FormControl
+      bsClass="form-control"
+      componentClass="input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`CustomInput should render correctly with no props 1`] = `
+<div
+  className="side-bar-option"
+>
+  <div
+    className="row side-bar-labels"
+  />
+  <div
+    className="row"
+  >
+    <FormControl
+      bsClass="form-control"
+      componentClass="input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
